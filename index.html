@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Legal</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #4b79a1, #283e51);
+            color: #fff;
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
+            background: rgba(0,0,0,0.2);
+            backdrop-filter: blur(6px);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            animation: aparecer 1.2s ease;
+        }
+
+        @keyframes aparecer {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            backdrop-filter: blur(6px);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao Meu Site Legal 😎</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Sobre</h2>
+            <p>Este é um exemplo de página HTML estilosa, com gradiente, glassmorphism e animações.</p>
+        </div>
+
+        <div class="card">
+            <h2>Recursos</h2>
+            <ul>
+                <li>Design moderno</li>
+                <li>CSS suave e responsivo</li>
+                <li>Animações leves</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Contato</h2>
+            <p>Você pode me personalizar do jeito que quiser 😉</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Feito com 💙</p>
+    </footer>
+
+</body>
+</html>
